@@ -1,0 +1,47 @@
+body{
+    background-color: #FFA600;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-size: 30px;
+}
+.Wrapper{
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family:"Reboto",sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+#seconds, #milliseconds{
+    font-size:2em;
+}
+button{
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: #FFA600;
+    color: #fff;
+    border:solid 1px #fff;
+    padding: 18px 10px;
+    text-decoration: none;
+    margin:10px;
+    width:180px;
+    outline: none;
+    font-size: 1.2em;
+}
+button:hover{
+    transition:all 0.5s ease-in-out;
+    background-color: #fff;
+    border:solid 1px #fff;
+    color:#FFA600
+}
+button:active{
+    transition: all 0.05s ease;
+    font-size: 1em;
+    width: 170px;
+    background-color: rgb(237, 230, 230);
+    color: #e59603;
+}
